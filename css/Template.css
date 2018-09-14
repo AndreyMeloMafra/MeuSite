@@ -1,21 +1,57 @@
-.Titles
-{
+body{
+    color: black;
+}
 
-font: times;
+#initimg{
+    float: left;
+}
+.STitles{
+    display: flex;
+    justify-content: center;
+    font-size: 2.5em;
+}
 
-color: black;
+.Titles{
 
-size: 48px;
+    display: flex;
+    justify-content: center;
+    font: times;
+    color: black;
+    size: 48px;
+}
+
+.Wel{
+    font-size: 4em;
+}
+h3{
+    text-align: center;
+    font-size: 1.9em;
+}
+h4{
+    text-align: center;
+    font-size: 1.2em;
+}
+h6{
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.content{
+
+    margin-left: 9em;
+    margin-right: 9em;
+
+    /* Flexbox commands for Photos*/
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 50%
 
 }
 
-.text
-{
+.text{
 
 font: "noto Sans";
-
 color: darkslategray;
-
-size: 24px;
+font-size: 1.5em;
 
 }
